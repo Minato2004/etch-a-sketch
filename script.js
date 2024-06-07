@@ -13,11 +13,11 @@ for(let i=0;i<size;i++){
         col.style.height="100%"
         col.style.width=`${height}%`
         
-        col.style.backgroundColor="beige"
+        col.style.backgroundColor="white"
         col.addEventListener('mouseenter',(e)=>{
             e.preventDefault();
             if(flag==1){
-            col.style.backgroundColor="blue"
+            col.style.backgroundColor="black"
         }
         })
         row.appendChild(col);
@@ -57,10 +57,10 @@ creator.addEventListener("click",()=>{
             col.style.height="100%"
             col.style.width=`${height}%`
             
-            col.style.backgroundColor="beige"
+            col.style.backgroundColor="white"
             col.addEventListener('mouseenter',()=>{
                 if(flag==1){
-                col.style.backgroundColor="blue"
+                col.style.backgroundColor="black"
             }
             })
             row.appendChild(col);
@@ -73,7 +73,7 @@ btn.addEventListener('click',()=>{
     let rows=container.childNodes
     rows.forEach((r)=>{
         r.childNodes.forEach((c)=>{
-            c.style.backgroundColor="beige";
+            c.style.backgroundColor="white";
         })
     })
 })

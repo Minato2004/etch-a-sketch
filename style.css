@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(39, 36, 36);
 }
 .container{
     display: flex;
@@ -16,6 +17,29 @@ body{
     width: 70vh;
     height: 70vh;
     border: 2px solid black;
+}
+.clear-btn{
+    display: flex;
+    justify-content: center;
+    width: 100;
+}
+button{
+    
+    background-color: rgb(39, 36, 36);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    
+
+}
+input[type="button"]{
+    background-color: rgb(39, 36, 36);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+
 }
 /* .rows{
     display: flex;
